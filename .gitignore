@@ -1,0 +1,16 @@
+# Arduino build artifacts
+*.hex
+*.elf
+*.bin
+*.o
+build/
+
+# Secrets — NEVER commit these
+arduino_secrets.h
+*.key
+*.pem
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
